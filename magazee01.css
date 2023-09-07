@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 370vh;
+}
+.container{
+    width: 70%;
+    height: 150vh;
+    margin: 10px auto;
+    background-color: tomato;
+}
+.container .containce{
+    width: 100%;
+    height: 34%;
+    display: flex;
+    background-color: brown;
+}
+.containce .box-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(62, 167, 62);
+}
+.box-left h1{
+    color: #d4d4d4;
+}
+.containce .box-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+}
+.box-right p{
+    padding: 20px 20px;
+}
+.containce #left-1{
+    background-color: rgb(175, 175, 175);
+}
+.containce #left-2{
+    background-color: rgb(62, 167, 62);
+}
+#left-2 img{
+    position: absolute;
+    top: 390px;
+    border-radius: 100%;
+    width: 150px;
+    height: 160px;
+}
+#left-1 h3{
+    color: rgb(62, 167, 62);
+    position: absolute;
+    top: 450px;
+    left: 265px;
+}
+#left-1 p{
+    padding: 0px 50px;
+
+}
+#left-1 .btn{
+    position: absolute;
+    bottom: 90px;
+    right: 790px;
+}
+.btn button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #d4d4d4;
+    background-color: rgb(62, 167, 62);
+}
+.box-right .text p{
+    padding-top: 160px;
+}
+#left-3 img{
+    width: 100%;
+    height: 100%;
+}
+#left-4 .text h3{
+    position: absolute;
+    top: 800px;
+    left: 800px;
+}
+#left-4 .text p{
+    padding: 10px 50px;
+}
+#left-4 .btn2{
+    position: absolute;
+    left: 900px;
+}
+#left-4 .btn2 button{
+    color: #d4d4d4;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(62, 167, 62);
+    padding: 5px;
+}
+/* =========================== Container-2 ============================ */
+.container-two{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    margin: 35px auto;
+    background-color: deeppink;
+}
+.container-two .con-two-left{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(175, 175, 175);
+}
+.con-two-left .left-text{
+    padding-top: 40px;
+}
+.left-text h3{
+    font-weight: bold;
+    color:  rgb(62, 167, 62);
+    padding: 10px 60px;
+}
+.left-text p{
+    padding: 5px 60px;
+}
+.container-two .con-two-right{
+    width: 30%;
+    height: 100%;
+}
+.con-two-right img{
+    width: 100%;
+    height: 100%;
+}
+.left-text .btn3{
+    float: right;
+    padding: 5px 60px;
+}
+.left-text .btn3 button{
+    color: #d4d4d4;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(62, 167, 62);
+    padding: 5px 6px;
+}
+/* ============================ Container-3 ======================================== */
+.containce-3{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    margin: -20px auto;
+    background-color: black;
+}
+.containce-3 .con-3-left{
+    width: 30%;
+    height: 100%;
+}
+.con-3-left img{
+    width: 100%;
+    height: 100%;
+}
+.containce-3 .con-3-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(175, 175, 175);
+}
+.con-3-right .standard-left{
+    width: 45%;
+    height: 90%;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+.standard-left .std-top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+}
+.standard-left .body-std{
+    width: 97%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    background-color: rgb(176, 176, 176);
+}
+.standard-left .std-btn{
+    width: 97%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    margin-bottom: 12px;
+    background-color: rgb(176, 176, 176);
+}
+.standard-left .std-btn button{
+    border: none;
+    padding: 5px 10px;
+    background-color: cadetblue;
+}
+.con-3-right .standard-right{
+    width: 45%;
+    height: 90%;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+.standard-left .body-std h5{
+    padding: 5px;
+}
+/* ============================ Container-4 ======================================== */
+.container-4{
+    width: 70%;
+    height: 80vh;
+    position: relative;
+    margin: 39px auto;
+}
+.container-4 .con-4-top{
+    width: 100%;
+    height: 20%;
+    background-color:  rgb(62, 167, 62);
+}
+.con-4-top h3{
+    color: #d4d4d4;
+    padding: 40px 193px;
+}
+.container-4 .con-4-mid{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 251, 251);
+}
+.container-4 .con-4-buttom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: rgb(175, 175, 175);
+}
+.con-4-buttom .con-4-text{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.container-4 .login{
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: 190px;
+    background-color: rgb(216, 216, 216);
+}
+.login .about{
+    width: 100%;
+    display: flex;
+    height: 80%;
+}
+#log-left{
+    background-color:  rgb(216, 216, 216);
+}
+.about .about-log{
+    width: 100%;
+    height: 100%;
+}
+.about-log .con-btn-4 form{
+    display: flex;
+    padding: 35px 20px;
+    flex-direction: column;
+}
+.about-log .con-btn-4 form input{
+   padding: 10px 10px;
+   margin: 8px 0px;
+   outline: none;
+   border-radius: 4px;
+}
+.about-log .con-btn-4 select{
+    padding: 10px 10px;
+    margin: 8px 0px;
+    outline: none;
+    border-radius: 4px;
+}
+#log-left .gender{
+    padding: 0px 10px;
+}
+.login .submit{
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+}
+#log-left{
+    padding: 45px 20px;
+ }
+#log-left textarea{
+   margin: 10px 4px;
+}
+
+
